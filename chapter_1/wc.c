@@ -27,7 +27,7 @@ int main() {
             ++nw;
         }
     }
-    printf("%d %d %d\n", nl, nw, nc);
+    printf("Lines: %d, Words: %d, Characters %d.\n", nl, nw, nc);
     // All done.
     return 0;
 }
