@@ -4,8 +4,7 @@
 #include <stdio.h>
 
 
-int main()
-{
+int main() {
     /* Print input to output replacing each tab by \t each backspace by
      * \b and each backslash by \\.
      *
@@ -18,16 +17,13 @@ int main()
         if (c == '\t') {
             putchar('\\');
             putchar('t');
-        }
-        else if (c == '\b') {
+        } else if (c == '\b') {
             putchar('\\');
             putchar('b');
-        }
-        else if (c == '\\') {
+        } else if (c == '\\') {
             putchar('\\');
             putchar('\\');
-        }
-        else {
+        } else {
             putchar(c);
         }
     }

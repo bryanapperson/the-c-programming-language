@@ -3,8 +3,7 @@
 //
 #include <stdio.h>
 
-int main(int argc, char *argv[])
-{
+int main() {
     float fahr, celsius;
     int lower, upper, step;
     float ratio;
@@ -16,7 +15,7 @@ int main(int argc, char *argv[])
     ratio = 5.0 / 9.0;
 
     fahr = upper;
-    
+
     printf("This is a simple program that converts\n");
     printf("Celsius to Fahrenheit in decimal format\n");
 
@@ -36,6 +35,6 @@ int main(int argc, char *argv[])
         printf("Fahrenheit: %6.2f Celsius: %3.1f\n", fahr, celsius);
         celsius = celsius - step;
     }
-    
+
     return 0;
 }

@@ -7,8 +7,7 @@
 
 #define OUT 0
 
-int main(int argc, char *argv)
-{
+int main() {
     /* Print input to output replacing more then one space with only 1 space */
     // declare counter variables
     int c, state;
@@ -23,8 +22,7 @@ int main(int argc, char *argv)
             }
             state = IN;
             putchar(c);
-        }
-        else {
+        } else {
             state = OUT;
         }
     }

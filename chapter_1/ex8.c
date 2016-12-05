@@ -3,8 +3,7 @@
 //
 #include <stdio.h>
 
-int main(void)
-{
+int main() {
     // declare counter variables
     int newline, tab, blank, c;
 
