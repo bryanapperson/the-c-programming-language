@@ -27,6 +27,7 @@ int main() {
             ++nw;
         }
     }
+    printf("%d %d %d\n", nl, nw, nc);
     // All done.
     return 0;
 }
