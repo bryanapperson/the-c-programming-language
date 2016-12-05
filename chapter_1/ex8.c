@@ -1,6 +1,9 @@
+//
+// Created by Bryan Apperson on 11/26/16.
+//
 #include <stdio.h>
 
-int main(int argc, char *argv)
+int main(void)
 {
     // declare counter variables
     int newline, tab, blank, c;

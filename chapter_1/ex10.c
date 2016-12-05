@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 
-int main(int argc, char** argv)
+int main()
 {
     /* Print input to output replacing each tab by \t each backspace by
      * \b and each backslash by \\.
